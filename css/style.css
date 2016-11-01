@@ -163,6 +163,13 @@ body {
   background-size: cover;
 }
 
+.ldimon {
+  background: url('../img/ldimon.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
 .owl-dots {
   text-align: center;
 }
@@ -216,6 +223,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .slide {
+    padding-left: 0;
+  }
   .img__left {
     float: none;
     width: 100%;
