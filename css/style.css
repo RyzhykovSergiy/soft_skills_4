@@ -75,6 +75,10 @@ body {
   color: rgba(255,255,255,.95);
 }
 
+.slide {
+  padding-left: 20px;
+}
+
 .item:after {
   content: "";
   display: block;
@@ -88,6 +92,7 @@ body {
   height: 500px;
   -webkit-background-size: cover;
   background-size: cover;
+  border-radius: 5px;
 }
 
 .text__right {
@@ -147,6 +152,13 @@ body {
 
 .sergiy_ryzhykov {
   background: url('../img/sergiy_ryzhykov.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.eugenia {
+  background: url('../img/Eugenia_Gorlacheva.jpg') no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -210,7 +222,9 @@ body {
   }
   
   .img__left {
+    width: 50%;
     height: 300px;
+    margin: 0 auto;
   }
 
   .text__right {
@@ -228,3 +242,10 @@ body {
 
 }
 
+@media (max-width: 480px) {
+  .img__left {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+  } 
+}
