@@ -61,6 +61,7 @@ body {
 }
 
 .content {
+  padding-bottom: 20px;
   background: #e9e9e9 url(../img/panel-bg.jpg);
 }
 
@@ -197,6 +198,6 @@ body {
 
 .owl-next:hover,
 .owl-prev:hover {
-  color: #fff;
+  color: rgba(255,255,255,.8);
   background-color: #000;
 }

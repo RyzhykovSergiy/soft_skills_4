@@ -5,7 +5,6 @@ $(function() {
         dots: true,     
         nav: true,
         items: 1,
-
         autoplay:true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
