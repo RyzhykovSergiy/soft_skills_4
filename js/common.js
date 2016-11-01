@@ -8,6 +8,6 @@ $(function() {
         autoplay:true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
-        mouseDrag: false
+        mouseDrag: true
     });
 });

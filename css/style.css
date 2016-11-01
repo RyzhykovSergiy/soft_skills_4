@@ -85,13 +85,14 @@ body {
   float: left;
   display: block;
   width: 50%;
-  height: 600px;
+  height: 500px;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .text__right {
   float: right;
   width: 50%;
-  min-height: 600px;
   padding: 15px 20px;
 }
 
@@ -201,3 +202,29 @@ body {
   color: rgba(255,255,255,.8);
   background-color: #000;
 }
+
+@media (max-width: 768px) {
+  .img__left {
+    float: none;
+    width: 100%;
+  }
+  
+  .img__left {
+    height: 300px;
+  }
+
+  .text__right {
+    float: none;
+    width: 100%;
+  }
+  .slide h4 {
+    text-align: center;
+  }
+
+  .slide p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+}
+
