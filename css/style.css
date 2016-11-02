@@ -173,6 +173,13 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
 }
+.a_matviyuk {
+  background: url('../img/AMatviyuk.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
 
 .owl-dots {
   text-align: center;
