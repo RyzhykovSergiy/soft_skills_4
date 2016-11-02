@@ -179,7 +179,11 @@ body {
   background-size: cover;
 }
 
-
+.igor {
+  background: url('../img/igor.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
 
 .owl-dots {
   text-align: center;
