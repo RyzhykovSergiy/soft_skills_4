@@ -185,6 +185,13 @@ body {
   background-size: cover;
 }
 
+.se {
+  background: url('../img/se.jpg') no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
 .owl-dots {
   text-align: center;
 }
